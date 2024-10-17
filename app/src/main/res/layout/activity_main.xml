@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vez do Jogador X"
+        android:textSize="24sp"
+        android:padding="16dp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="32sp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar Jogo"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
