@@ -8,9 +8,21 @@
     android:padding="16dp">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_light"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <TextView
         android:id="@+id/statusTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/blue_light"
         android:text="Vez do Jogador X"
         android:textSize="24sp"
         android:padding="16dp" />
@@ -28,79 +40,71 @@
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button5"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button6"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button7"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
-
         <Button
             android:id="@+id/button8"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="32sp"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/button_background"
             android:text="" />
     </GridLayout>
 
@@ -109,7 +113,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reiniciar Jogo"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
         android:padding="16dp"
         android:layout_marginTop="16dp" />
-
 </LinearLayout>

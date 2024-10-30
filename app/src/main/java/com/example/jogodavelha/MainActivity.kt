@@ -1,4 +1,4 @@
-package com.example.tictactoe
+package com.example.jogodavelha
 
 import android.os.Bundle
 import android.widget.Button
@@ -76,7 +76,6 @@ class MainActivity : AppCompatActivity() {
         gameActive = true
         board.fill(null)
         statusTextView.text = "Player X's turn"
-
         for (i in 0 until gridLayout.childCount) {
             val button: Button = gridLayout.getChildAt(i) as Button
             button.text = ""
