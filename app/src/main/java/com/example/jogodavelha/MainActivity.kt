@@ -28,14 +28,14 @@ class MainActivity : AppCompatActivity() {
                     button.text = currentPlayer
                     board[i] = currentPlayer
                     if (checkForWin()) {
-                        statusTextView.text = "Vitória do Jogador $currentPlayer!"
+                        statusTextView.text = "Player $currentPlayer wins!"
                         gameActive = false
                     } else if (board.all { it != null }) {
-                        statusTextView.text = "Deu velha!"
+                        statusTextView.text = "It's a tie!"
                         gameActive = false
                     } else {
                         currentPlayer = if (currentPlayer == "X") "O" else "X"
-                        statusTextView.text = "Vez do jogador $currentPlayer"
+                        statusTextView.text = "Player $currentPlayer's turn!"
                     }
                 }
             }
@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         currentPlayer = "X"
         gameActive = true
         board.fill(null)
-        statusTextView.text = "Vez do jogador X"
+        statusTextView.text = "Player X's turn"
         for (i in 0 until gridLayout.childCount) {
             val button: Button = gridLayout.getChildAt(i) as Button
             button.text = ""

@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tic Tac Toe"
+        android:text="@string/app_name"
         android:textSize="32sp"
         android:textStyle="bold"
         android:textColor="@color/blue_light"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/blue_light"
-        android:text="Vez do Jogador X"
+        android:text="@string/player_turn"
         android:textSize="24sp"
         android:padding="16dp" />
 
@@ -112,7 +112,7 @@
         android:id="@+id/restartButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reiniciar Jogo"
+        android:text="@string/restart"
         android:textColor="@color/dark_gray"
         android:textSize="20sp"
         android:textStyle="bold"
