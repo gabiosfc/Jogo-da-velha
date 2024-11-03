@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         currentPlayer = "X"
         gameActive = true
         board.fill(null)
-        statusTextView.text = "Player X's turn"
+        statusTextView.text = "Vez do jogador X"
         for (i in 0 until gridLayout.childCount) {
             val button: Button = gridLayout.getChildAt(i) as Button
             button.text = ""
